@@ -45,6 +45,15 @@ With the following software and hardware list you can run all code files present
 |  		1-13 |	OpenBB Platform version 4+ 					                                            			  | Windows, Mac OS X, and Linux (Any) |
 |  		1-13 |pandas version 2+					                                            			  | Windows, Mac OS X, and Linux (Any) |
 
+
+## Errata
+
+* Page 34 (Code block snippet under section 5): **asset_2.volume.mean()** _should be_ **asset_2.volume[asset_2.index[5:10]].mean().astype(int)**
+* Page 34 (second code block snippet under section 5): **asset_2.iat[10, 5]** _should be_ **asset_2.iat[10,4]**
+* Page 34 (line 3 which is after second code block snippet): **The result is a scalar value representing the mean volume between indexes 5 and 10.** _should be_ **The result is a scalar value corresponding to the mean of the 'volume' column, assigned to the cell located at row 10 and column 4 (which corresponds to the 'volume' column).**
+
+
+
 ## Get to Know the Author
 **Jason Strimpel** is the founder of [PyQuant News](https://www.pyquantnews.com/) and co-founder of [Trade Blotter](https://www.tradeblotter.io/), with a career spanning over 20 years in trading, risk management, and data science. He previously traded for a Chicago-based hedge fund, served as a risk manager at JPMorgan, and managed production risk technology for an energy derivatives trading firm in London. In Singapore, Jason served as the APAC CIO for an agricultural trading firm and built the data science team for a global metals trading firm. He holds degrees in finance and economics and a Master’s in quantitative finance from the Illinois Institute of Technology. His career has taken him across America, Europe, and Asia. Jason shares his expertise through the [PyQuant Newsletter](https://www.pyquantnews.com/subscribe-to-the-pyquant-newsletter), social media, and teaches the course [Getting Started With Python for Quant Finance](https://www.pyquantnews.com/getting-started-with-python-for-quant-finance).
 
