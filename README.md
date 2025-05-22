@@ -89,6 +89,8 @@ With the following software and hardware list you can run all code files present
 * Page 34 (Code block snippet under section 5): **asset_2.volume.mean()** _should be_ **asset_2.volume[asset_2.index[5:10]].mean().astype(int)**
 * Page 34 (second code block snippet under section 5): **asset_2.iat[10, 5]** _should be_ **asset_2.iat[10,4]**
 * Page 34 (line 3 which is after second code block snippet): **The result is a scalar value representing the mean volume between indexes 5 and 10.** _should be_ **The result is a scalar value corresponding to the mean of the 'volume' column, assigned to the cell located at row 10 and column 4 (which corresponds to the 'volume' column).**
+* Page: 36 - Into "2. Filter out the call..."  the `chains` Dataframe contains a column named "option_type" and not "optionType". So, wherever the filter **`(chains.optionType == "****")`** is used, it  _should instead be written as_ ** `(chains.option_type == "****")`**
+* Page 49 . It is  stated as: **“Then we used the OpenBB Platform's `stocks.load` method …”**. However, the method actually used is **obb.equity.price.historical**.
 
 
 
