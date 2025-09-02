@@ -4,7 +4,7 @@
 
 This is the code repository for [Python for Algorithmic Trading Cookbook](https://amzn.to/4706Exu), published by Packt.
 
-**Recipes for designing, building, and deploying algorithmic trading strategies with Python**
+**Recipes for designing, building, and deploying algorithmic trading strategies with Python.**
 
 ## What is this book about?
 Explore Python code recipes to use market data for designing and deploying algorithmic trading strategies. By following step-by-step instructions, you’ll be proficient in trading concepts and have hands-on experience in a live trading environment.
@@ -28,7 +28,7 @@ The code will look like the following:
 ```
 import datetime as dt
 import pandas as pd
-from openbb_terminal.sdk import openbb
+from openbb import obb
 ```
 
 **Following is what you need for this book:**
@@ -57,5 +57,5 @@ With the following software and hardware list you can run all code files present
 
 
 ## Get to Know the Author
-**Jason Strimpel** is the founder of [PyQuant News](https://www.pyquantnews.com/) and co-founder of [Trade Blotter](https://www.tradeblotter.io/), with a career spanning over 20 years in trading, risk management, and data science. He previously traded for a Chicago-based hedge fund, served as a risk manager at JPMorgan, and managed production risk technology for an energy derivatives trading firm in London. In Singapore, Jason served as the APAC CIO for an agricultural trading firm and built the data science team for a global metals trading firm. He holds degrees in finance and economics and a Master’s in quantitative finance from the Illinois Institute of Technology. His career has taken him across America, Europe, and Asia. Jason shares his expertise through the [PyQuant Newsletter](https://www.pyquantnews.com/subscribe-to-the-pyquant-newsletter), social media, and teaches the course [Getting Started With Python for Quant Finance](https://www.pyquantnews.com/getting-started-with-python-for-quant-finance).
+**Jason Strimpel** is the founder of [PyQuant News](https://www.pyquantnews.com/), with a career spanning over 20 years in trading, risk management, and machine learning. He previously traded for a Chicago-based hedge fund, served as a risk manager at JPMorgan, and managed production risk technology for an energy derivatives trading firm in London. In Singapore, Jason served as the APAC CIO for an agricultural trading firm and built the data science team for a global metals trading firm. He holds undergraduate degrees in finance and economics and a Master’s degree in quantitative finance from the Illinois Institute of Technology. His career has taken him across America, Europe, and Asia. Jason shares his expertise through the [PyQuant Newsletter](https://www.pyquantnews.com/subscribe-to-the-pyquant-newsletter), social media, and teaches the best-selling course [Getting Started With Python for Quant Finance](https://www.pyquantnews.com/getting-started-with-python-for-quant-finance?utm_source=gh&utm_campaign=book).
 
